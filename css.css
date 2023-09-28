@@ -125,7 +125,7 @@ html{
 #services.box a{
     text-decoration: none;   
 }
-#services.box:hover{
+#services .box:hover{
     cursor: pointer;
 }
 #services {
