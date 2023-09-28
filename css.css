@@ -125,6 +125,9 @@ html{
 #services.box a{
     text-decoration: none;   
 }
+#services.box:hover{
+    cursor: pointer;
+}
 #services {
     position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
