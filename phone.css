@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1415px){
+    body{
+        box-sizing: border-box;
+    }
+    #nav{
+
+        flex-direction:column ;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    #nav::before{
+        height: 230px;
+    }
+    #home{
+        flex-wrap: wrap;
+        padding: 3px 10px;
+    }
+    .h-primary{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #home h1{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    #home p{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #home::before{
+        height: 590px;
+        width: 100%;
+        right: 0%;
+        left: 0%;
+        top: 0%;
+    }
+    .btn{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+    #services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+#services.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    flex-wrap: wrap;
+}
+#contactbox{
+    margin: 5px 10px;
+    margin-left: 10%;
+}
+}
